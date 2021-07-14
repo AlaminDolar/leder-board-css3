@@ -1,0 +1,59 @@
+/* font  */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+</style>
+
+/* font utilities */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: seashell;
+}
+
+main{
+      display: flex;
+    justify-content: center;
+}
+
+.container{
+
+    background-color: #F3F1FF;
+    width: 970px;
+    padding: 30px;
+}
+
+.section-title{
+    color: slateblue;
+    
+}
+/* Top plaer stylees */
+.players{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 150px;
+    grid-row-gap: 30px;
+    
+}
+
+.player{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+ .player img{
+
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+}
+
+
+h3{
+    width: 150px;
+}
